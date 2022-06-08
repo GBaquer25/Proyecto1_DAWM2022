@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.perfil{
+    position:absolute; top:220; left:750;
+}
+.nombre_portada{
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+    margin-left: 5px;
+    color: blueviolet;
+}
