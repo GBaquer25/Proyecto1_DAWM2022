@@ -16,9 +16,19 @@
             <a href="#">Proyectos</a>
             <a href="#">Contactos</a>
         </nav>
-         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>>
+        <img class="imagen-perfil" src="/imagenes/computacion.jpg" alt="      ">
+         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #a47c03f1;"></path></svg>
+            
+        </div>
+        <div class="textos-header">
+            <h1>Génesis Baquerizo</h1>
+            <h2>Ingeniería en Computación</h2>
+        </div>
+ 
+        
     </header>
     <main>
+
         <section class="contenedor acerca-de-mi">
             <h2 class="titulo">Vida Personal</h2>
             <div class="contenedor-acerca-de-mi">
@@ -31,7 +41,7 @@
                     <h3><span>3</span>Preferencias</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa quasi debitis sed minima ex quae expedita perferendis nulla, veritatis officia dolorum commodi explicabo aut molestias a suscipit accusantium distinctio!</p>
                     <h3><span>4</span>Experiencias</h3>
-                    <table>
+                    <table class="tabla-experiencia">
                         <tr>
                             <th>Empresa</th>
                             <th>Actividad</th>
@@ -60,53 +70,47 @@
         <section class="contenedor-proyectos">
             <div class="contenedor">
                 <h2 class="titulo">Proyectos</h2>
-                <div class="galeria-pro">
-                    <img src="imagenes/blue-pasantias.jpg" width="300" height="300" alt="">
-                    <div class="hover-galeria">
-                        <img src="imagenes/icono-contactame.png" width="300" height="300" alt="">
-                        <p>Contáctame</p>
+                <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="imagenes/lp.jpg" width="300" height="300" alt="">
+                    <div class="hover-galeria">     
+                        <p>Lenguajes de Programación</p>
                     </div>
                 </div>
-                <div class="galeria-pro">
-                    <img src="imagenes/blue-pasantias.jpg"width="300" height="300"  alt="">
+                <div class="imagen-port">
+                    <img src="imagenes/paginasweb.jpg"width="300" height="300"  alt="">
                     <div class="hover-galeria">
-                        <img src="imagenes/icono-contactame.png" width="300" height="300" alt="">
-                        <p>Contáctame</p>
+                        <p>Desarrollo Web</p>
                     </div>
                 </div>
-                <div class="galeria-pro">
-                    <img src="imagenes/blue-pasantias.jpg" width="300" height="300" alt="">
+                <div class="imagen-port">
+                    <img src="imagenes/poo.jpg" width="300" height="300" alt="">
                     <div class="hover-galeria">
-                        <img src="imagenes/icono-contactame.png" width="300" height="300" alt="">
-                        <p>Contáctame</p>
+                        <p>Programación orientada a objetos</p>
                     </div>
                 </div>
-                <div class="galeria-pro">
-                    <img src="imagenes/blue-pasantias.jpg" width="300" height="300" alt="">
-                    <div class="hover-galeria">
-                        <img src="imagenes/icono-contactame.png" width="300" height="300" alt="">
-                        <p>Contáctame</p>
-                    </div>
-                </div>
-
+                </div>    
             </div>
         </section>
-        <section class="testimonio">
-            <h2 class="titulo"> Palabras mías</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="imagenes/GenesisLinkedLink.jpeg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Reconozco...</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, distinctio.</p>
+        <section class="contenedor-testimonio">
+            <div class="contenedor">
+                <h2 class="titulo"> Palabras mías</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="imagenes/GenesisLinkedLink.jpeg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Reconozco...</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, distinctio.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="contacto">
+
             <div class="contenedor">
-                <img src="imagenes/mensajes.png" width="400" height="400" alt="">
-                <h2>¿Tienes preguntas?</h2>
+                <h2 class="titulo">¿Tienes preguntas?</h2>
+    
                 <form id="formulario">
 
         
@@ -116,29 +120,8 @@
                     <label>Correo electrónico:</label>
                     <input type="text">
                     <br>
-                    <label>Género:</label>
-                    <br>
-                    <input type="radio" name="genero" value="masculino"><label>Masculino</label>
-                    <br>
-                    <input type="radio" name="genero" value="femenino"><label>Femenino</label>
-                    <br>
-                    <input type="radio" name="genero" value="otro"><label>Otro:</label>
-                    <br>
-                    <label>Fecha de nacimiento:</label>
-                    <input type="date">
-                    <br>
-                    <label>Sistema Operativo</label>
-                    <select>
-                      <option value="">Windows</option>
-                      <option value="">MacOs</option>
-                      <option value="">Linux</option>
-                    </select>
-                    <br>
                     <label>Mensaje:</label>
                     <textarea rows="10" cols="30"></textarea>
-                    <br>
-                    <label>Puntuación:</label>
-                    <input type="number" min="1" max="10">
                     <br>
                     <input type="checkbox" required>
                     <label>No soy un robot</label>
@@ -147,20 +130,22 @@
               </form>
             </div>
         </section>
-        <section class="footer">
-            <div class="content-foo">
-                <h4 Phone></h4>
-                <p>098754656758</p>
-            </div>
-            <div class="content-foo">
-                <h4 Phone></h4>
-                <p>098754656758</p>
-            </div>
-            <div class="content-foo">
-                <h4 Phone></h4>
-                <p>098754656758</p>
-            </div>
-        </section>
     </main>
+    <footer>
+        <div class="content-foo">
+            <h4 >Phone</h4>
+            <p>0989792261</p>
+        </div>
+        <div class="content-foo">
+            <h4 >LinkedLink</h4>
+            <p>Génesis Baquerizo Anastacio</p>
+        </div>
+        <div class="content-foo">
+            <h4 >Facebook</h4>
+            <p>Daniela Baquerizo Anastacio</p>
+        </div>
+    </footer>
+    <h2 class="titulo-final">&copy; Web Disegner | Génesis Baquerizo </h2>
+    
 </body>
 </html>
