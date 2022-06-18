@@ -67,22 +67,26 @@ color: rgb(11, 79, 188);
 
 nav{
     text-align: right;
-    padding: 30px 70px 0px 0px;
-    font-size: 25px;
+    padding: 20px 70px 20px 0px;
+    font-size: 28px;
     margin-top: 5px;
     margin-bottom: 5px;
-    background: #101010;
+    background: #19025b;
 }
 
 nav > a{
+    display: inline;
     color: #fff;
     font-weight: 300;
-    text-decoration: none;
-    margin-right: 20px;
+    margin-right: 25px;
+    
 }
 
+
+
 nav > a:hover{
-    text-decoration: underline;
+    text-decoration:underline;
+    color: #112c98;
 }
 
 .wave{
@@ -99,7 +103,13 @@ nav > a:hover{
 }
 
 .imagen-acerca-de-mi{
-    width: 48%;
+    width: 40%;
+    display: flex;
+    margin-left: 30%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
 }
 
 .sobre-mi .contenido-textos{
@@ -129,11 +139,14 @@ contenido-textos h3{
     text-align: justify;
 }
 
+.google-map-espol{
+    margin-left: 30%;
+    height: 340px;
+    width: 50%;
+}
+
 /*galeria*/
 
-.portafolio{
-
-}
 
 .galeria-port{
     display: flex;
@@ -225,15 +238,25 @@ contenido-textos h3{
 
 /*tabla*/
 .tabla-experiencia{
-    border: 1;
+    margin-left: 30%;
+    width: 50%;
+	height: 300px;
     align-content: center;
+    align-items: center;
+    border-top-color: #101010;
+    border-left-color: #101010;
+    border-right-color: #101010;
+    border-bottom-color: #101010;
+    background-color: #a883b1;
+
 }
+
 
 
 /*footer*/
 
 footer{
-    background: #414141;
+    background: #19025b;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -256,19 +279,38 @@ footer{
 }
 
 .content-foo{
-    text-align: center;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
 }
 
 .content-foo{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-right: 3px solid #af20d3;
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
 
-.content-foo p{
+.content-foo h4{
     color: #ccc;
 }
+
+#redes-sociales{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.imagen-footer > a{
+    color: #fff;
+} 
+
+.imagen-footer > h4{
+    color: #fff;
+} 
 
 .titulo-final{
     text-align: center;
