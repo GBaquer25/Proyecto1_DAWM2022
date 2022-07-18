@@ -1,0 +1,9 @@
+.miniatura{
+    width: 33%;
+}
+
+.mini > img{
+    height: 150px;
+    width: 100px;
+}
+
